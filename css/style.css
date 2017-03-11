@@ -1,0 +1,4 @@
+/*导航栏区域*/
+.navbar-collapse{
+    justify-content: flex-end;
+}
