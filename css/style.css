@@ -1,34 +1,92 @@
+/* ---元素样式--- */
+h1, h2, h3 {
+    padding: 1.5em;
+}
+button {
+    border-radius: 50px;
+    background-color: #25365d;
+    color: #fff;
+    border: 1px solid #25365d;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-family: Open Sans , Arial, sans;
+    font-size: 1em;
+}
+/* ---基本样式--- */
+.featureList,
+.plans {
+    background-color: #f7f9fb;
+}
+
+.gray-panel {
+    background-color: #f7f9fb;
+}
+
+.row {
+    margin: 1.5em 0;
+}
+/* ---区域样式--- */
 /* ---导航栏区域--- */
 .navbar-collapse {
     justify-content: flex-end;
 }
 
-/* ---顶部--- */
+/* ---顶部区域--- */
 .webHeader {
     width: 100%;
     height: 30em;
     background-position: center;
     background-size: 2000px 1830px;
     background-repeat: no-repeat;
-    background-image: url("http://placehold.it/2000x1215");
+    background-image: url("http://placehold.it/2000x1215"); 
+    padding-top: 4em;  
 }
 
 div.justDownload {
     position: relative;
+    padding: 3em;
+}
+.justDownload h2 {
+    padding-left: 0;
+}
+
+.justDownload img {
+    padding: 2em 0 0 0;
+}
+
+.justDownload button {
+    margin: 0 15px;
 }
 
 .featureList {
     position: relative;
+    padding: 5em 7em;
 }
 
-/* ---第三部分--- */
+.check-feature {
+    padding: 3em;
+}
+/* ---计划区域--- */
 .monthPrice {
     font-size: 2em;
 }
 
+.plans {
+    padding: 3em 0;
+}
+
 .plan{
-    border: 10px solid #8e8e8e;
+    border: 10px solid #f7f9fb;
     padding: 1.86em 1.86em 0;
+    background-color: #fff;
 }
 
 .plan h5,
@@ -41,6 +99,10 @@ div.justDownload {
     padding: 2em 0;
 }
 
+/* ---联系信息区域--- */
+.contact-item {
+    margin-top: 4em;
+}
 .contact-item h6 {
     font-size: 1.2em;
     width: 12em;
@@ -51,6 +113,7 @@ div.justDownload {
     margin: 0 .5em;
 }
 
+/* ---底部区域--- */
 .download-template {
     width: 100%;
     height: 50em;
@@ -58,4 +121,18 @@ div.justDownload {
     background-position: center;
     background-size: 2000px 1106px;
     background-repeat: no-repeat;
+}
+
+.download-template h2,
+.download-template p {
+    max-width: 60%;
+    margin: auto;
+}
+
+.download-template h2 {
+    padding-top: 5em;
+}
+
+.download-template button {
+    margin: 3em auto;
 }
