@@ -66,11 +66,19 @@ div.justDownload {
     margin: 0 15px;
 }
 
+/* ---feature区域--- */
 .featureList {
     position: relative;
-    padding: 5em 7em;
+    padding: 5em 1em;
 }
 
+img#adjust-png-1  {
+    padding-right: 11px;
+}
+
+img#adjust-png-2 {
+    padding: 0 11px;
+}
 .check-feature {
     padding: 3em;
 }
@@ -85,7 +93,7 @@ div.justDownload {
 
 .plan{
     border: 10px solid #f7f9fb;
-    padding: 1.86em 1.86em 0;
+    padding: 1.86em  0;
     background-color: #fff;
 }
 
