@@ -17,10 +17,26 @@ div.justDownload {
     position: relative;
 }
 
-.macbook-img {
-
-}
-
 .featureList {
     position: relative;
+}
+
+/* ---第三部分--- */
+.monthPrice {
+    font-size: 2em;
+}
+
+.plan{
+    border: 10px solid #8e8e8e;
+    padding: 1.86em 1.86em 0;
+}
+
+.plan h5,
+.plan h6,
+.plans p {
+    display: block;
+}
+
+.plan h6 {
+    padding: 2em 0;
 }
