@@ -1,4 +1,8 @@
 /* ---元素样式--- */
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
 h1, h2, h3 {
     padding: 1.5em;
 }
@@ -6,7 +10,11 @@ h1, h2, h3 {
 h2, h3, h6 {
     color: #25365d;
 }
-
+nav {
+    background: #0288cf;
+    color: #fff;
+    border: 0;
+}
 button {
     border-radius: 50px;
     background-color: #25365d;
@@ -23,8 +31,9 @@ li {
 }
 
 p {
-    font-family: Open Sans , Arial, sans;
+    font-family: 'Droid Serif', serif;
     font-size: 1em;
+    line-height: 1.5;
 }
 /* ---基本样式--- */
 .featureList,
@@ -44,7 +53,9 @@ p {
 .navbar-collapse {
     justify-content: flex-end;
 }
-
+nav a {
+    color: #fff;
+}
 /* ---顶部区域--- */
 .webHeader {
     width: 100%;
