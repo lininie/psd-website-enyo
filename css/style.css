@@ -1,4 +1,8 @@
 /* ---元素样式--- */
+body{
+    padding-top: 3em;
+}
+
 h1, h2, h3, h4, h5 ,h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -35,7 +39,9 @@ p {
     font-size: 1em;
     line-height: 1.5;
 }
+
 /* ---基本样式--- */
+
 .featureList,
 .plans {
     background-color: #f7f9fb;
@@ -50,13 +56,16 @@ p {
 }
 /* ---区域样式--- */
 /* ---导航栏区域--- */
+
 .navbar-collapse {
     justify-content: flex-end;
 }
 nav a {
-    color: #fff;
+    color: #fff !important;
 }
+
 /* ---顶部区域--- */
+
 .webHeader {
     width: 100%;
     height: 45em;
@@ -88,7 +97,12 @@ div.macbook-img {
     margin: 0 15px;
 }
 
+.justDownload i {
+    color: #ff5e8e;
+    padding-right: .5em;
+}
 /* ---feature区域--- */
+
 .featureList {
     position: relative;
     padding: 5em 1em;
@@ -106,7 +120,9 @@ img#adjust-png-2 {
 .check-feature {
     padding: 3em;
 }
+
 /* ---计划区域--- */
+
 .monthPrice {
     font-size: 2em;
 }
@@ -132,6 +148,7 @@ img#adjust-png-2 {
 }
 
 /* ---联系信息区域--- */
+
 .contact-item {
     margin-top: 4em;
 }
@@ -146,14 +163,7 @@ img#adjust-png-2 {
 }
 
 /* ---底部区域--- */
-/*
-.download-template {
-    width: 100%;
-    height: 45em;
-    background-size: cover;
-    background: url("../img/moutains2.jpg") no-repeat center;
-}
-*/
+
 .download-template h2,
 .download-template p {
     max-width: 60%;
